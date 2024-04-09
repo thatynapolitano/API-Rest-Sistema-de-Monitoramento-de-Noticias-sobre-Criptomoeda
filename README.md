@@ -33,6 +33,7 @@
 
         - retornar todas as notícias
         - retornar notícia por id
+        - receber outras notícias que não foram mapeadas pela API original
         - retornar a quantidade de notícias por ano, mês e dia de publicação do item 4.1
         - retornar a quantidade de notícias por fonte e autor do item 4.2
         - retornar a quantidade de aparições das 3 palavras-chave por ano, mês e dia de publicação  do item 4.3
