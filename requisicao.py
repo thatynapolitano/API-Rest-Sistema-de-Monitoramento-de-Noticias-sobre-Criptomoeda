@@ -35,6 +35,8 @@ def atualizar_csv():
 
 atualizar_csv()
 
-
+# While True: 
+  # atualizar_csv() 
+  # time.sleep(3600)    # Para atualizar de 1 em 1 hora a base de dados code.csv
 
 
