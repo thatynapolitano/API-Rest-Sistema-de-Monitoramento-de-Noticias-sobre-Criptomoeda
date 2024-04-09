@@ -2,9 +2,6 @@ import pandas as pd
 import requests
 from datetime import datetime
 
-
-
-
 apiKey = "df97b6ec3d3148c2a0f34e552e3f53af"
 keyWords = "bitcoin+blockchain+web3"
 today = datetime.now().strftime('%Y-%m-%d')
@@ -22,10 +19,6 @@ def busca_tema():
       return print("Problema na requisição.")
 
     return results
-
-
-
-
 
 def atualizar_csv():
     df_novo = pd.json_normalize(busca_tema()['articles'])
