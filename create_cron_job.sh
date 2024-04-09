@@ -1,8 +1,8 @@
 #!/bin/bash
 
-crontab -l > ~/Projeto_4/mycron
-echo "0 * * * * ~/Projeto_4/cron.sh" >> ~/Projeto_4/mycron
+crontab -l > ~/API Rest - Sistema de Monitoramento de Notícias sobre Criptomoeda/mycron
+echo "0 * * * * ~/API Rest - Sistema de Monitoramento de Notícias sobre Criptomoeda/cron.sh" >> ~/API Rest - Sistema de Monitoramento de Notícias sobre Criptomoeda/mycron
 
-crontab ~/Projeto_4/mycron
+crontab ~/API Rest - Sistema de Monitoramento de Notícias sobre Criptomoeda/mycron
 rm mycron
 echo feito

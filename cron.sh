@@ -1,5 +1,5 @@
 #!/bin/bash
 
-python ~/Projeto_4/requisicao.py
-python ~/Projeto_4/selects.py
-echo run_time: $(date +"%D_%T") >> ~/Projeto_4/log.txt
+python ~/API Rest - Sistema de Monitoramento de Notícias sobre Criptomoeda/requisicao.py
+python ~/API Rest - Sistema de Monitoramento de Notícias sobre Criptomoeda/selects.py
+echo run_time: $(date +"%D_%T") >> ~/API Rest - Sistema de Monitoramento de Notícias sobre Criptomoeda/log.txt
