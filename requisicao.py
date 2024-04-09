@@ -1,7 +1,7 @@
 import pandas as pd
 import requests
 from datetime import datetime
-print('FASE1')
+
 
 
 
@@ -24,7 +24,7 @@ def busca_tema():
     return results
 
 
-print('FASE2')
+
 
 
 def atualizar_csv():
@@ -41,7 +41,7 @@ def atualizar_csv():
         print(f"Arquivo CSV criado com sucesso em {datetime.now()}.")
 
 atualizar_csv()
-print('FASE3')
+
 
 
 
